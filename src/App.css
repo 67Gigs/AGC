@@ -41,7 +41,7 @@
   z-index: 9999;
   
 }
-
+/* 
 .container::before, .container-inversed::before {
   display: flex;
   background: radial-gradient(
@@ -63,7 +63,7 @@
 
 .container:hover::before, .container-inversed:hover::before {
   opacity: 1;
-}
+} */
 
 
 .container:hover {
@@ -263,18 +263,4 @@
   top: unset;
   right: -20px;
   bottom: 150px;
-}
-
-.switch {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url('./pics/switch.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 1051px;
-  height: 481px;
-  opacity: 1;
-  z-index: 1000000;
 }

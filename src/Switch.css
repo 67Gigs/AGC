@@ -1,0 +1,73 @@
+.switch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    opacity: 1;
+    z-index: 1;
+    margin-bottom: 200px;
+}
+
+.switch-title {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 5.071558952331543px 10.143117904663086px rgba(0, 0, 0, 0.25);
+    font-family: "League Spartan";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 79.5%;
+}
+
+.switch-title span {
+    color: var(--cyan, #47FDFE);
+}
+
+.chat-bot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./pics/chatbot-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 656px;
+    height: 367px;
+    flex-shrink: 0;
+}
+
+.chat-bot-input-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.chat-bot-send-button {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    top: 50%;
+}
+
+.chat-bot-input {
+    border-radius: 37.8px;
+    background: #070034;
+    width: 551.88px;
+    height: 44.1px;
+    flex-shrink: 0;
+    color: #505050;
+    font-family: Handjet;
+    font-size: 15.12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 28px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(255, 184, 0, 0.04);
+
+}
+

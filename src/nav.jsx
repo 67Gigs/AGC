@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './nav.css'
 
 function Nav() {
@@ -20,13 +20,13 @@ function Nav() {
             <div className='logo'></div>
         </a>
         <div className='nav-links'>
-            <a className='links'>Home</a>
-            <a className='links'>About</a>
-            <a className='links'>Agenda</a>
-            <a className='links'>Contact</a>
+            <a href='/' className='links'>Home</a>
+            <a href='/' className='links'>About</a>
+            <a href='/' className='links'>Agenda</a>
+            <a href='/' className='links'>Contact</a>
         </div>
         <div className='nav-buttons'>
-            <a className='register' onMouseMove={(e) => handleOnMouseMove(e)}>Register</a>
+            <a href='/register' className='register' onMouseMove={(e) => handleOnMouseMove(e)}>Register</a>
         </div>
 
     </div>

@@ -2,6 +2,7 @@ import './App.css';
 import Nav from './nav.jsx'
 import React from 'react'
 import About from './About.jsx';
+import Switch from './Switch.jsx';
 
 function App() {
 
@@ -22,13 +23,14 @@ function App() {
       <div className='header'>
 
         <div className='header'>
-          <div className='switch'></div>
         </div>
+
+        <Switch />
         
         <About />
 
         <div className='hover' onMouseMove={(e) => handleOnMouseMove(e)} id='test' >
-
+          
         </div>
       
       </div>
